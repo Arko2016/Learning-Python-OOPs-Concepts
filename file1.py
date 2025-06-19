@@ -13,7 +13,7 @@ class Employee:
         print(f"{self.name} with id {self.id} is a {self.designation}, and is able to perform {expertise} level data pull")
     
 #initiate an object of the class
-employee1 = Employee("Employee 1",100,"Junior Analyst")
+employee1 = Employee("Employee 1",101,"Junior Analyst")
 #call the function using above object
 employee1.func_datapull("basic")
 
