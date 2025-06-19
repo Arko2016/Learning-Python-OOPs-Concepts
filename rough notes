@@ -1,0 +1,10 @@
+### Advantage of having a Constructor
+In software development, it helps to define variables or attributes of the class which will usually not be updated by the user of the application
+
+While the attributes within Constructor are automatically defined, functions need to be invoked
+
+### Advantages of OOPs:
+- Create your own datatype (i.e Class)
+- Code reusability through functions
+- Easy to debug
+- Easy to collaborate
