@@ -1,4 +1,19 @@
-### Heading 1
-xyz
-zyz
+### Topics Covered:
+- Class, Object, Attributes and Functions/Methods through a working example
+- Understand advantages of OOPs
+- Advanced concepts: 
+  - Encapsulation
+  - Getter and Setter
+  - Static method
+
+### Advantage of having a Constructor
+In software development, it helps to define variables or attributes of the class which will usually not be updated by the user of the application
+
+*Note:* While the attributes within class are automatically defined, functions need to be invoked
+
+### Advantages of OOPs:
+- Create your own datatype (i.e Class)
+- Code reusability through functions
+- Easy to debug
+- Easy to collaborate
 
