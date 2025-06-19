@@ -22,9 +22,9 @@ class chatbot:
         elif user_input == "2":
             self.signin()
         elif user_input == "3":
-            pass
+            self.writepost()
         elif user_input == "4":
-            pass
+            self.sendmsg()
         else:
             exit()
     
@@ -54,6 +54,7 @@ class chatbot:
             if self.username == email and self.password == pwd:
                 print("You have logged in successfully")
                 #update class attribute loggedin variable
+                #this is changed to True if user is able to log in successfully
                 self.loggedin = True
             else:
                 print("Please input correct sign-in credentials")
@@ -61,6 +62,32 @@ class chatbot:
         print("\n")
         #call the menu function for next user input
         self.menu()
+
+    #create a post
+    def writepost(self):
+        if self.loggedin == True:
+            txt = input("Enter your post here: ")
+            print(f"Following post has been posted:\n{txt}")
+        else:
+            print("Please sign in first using option 2 from main menu")
+        
+        print("\n")
+        #call the menu function for next user input
+        self.menu()
+    
+    #message a friend
+    def sendmsg(self):
+        if self.loggedin == True:
+            txt = input("Enter message for friend: ")
+            frnd = input("Enter name of friend to message: ")
+            print(f"Your sent the below message to {frnd}:\n{txt}")
+        else:
+            print("Please sign in first using option 2 from main menu")
+        
+        print("\n")
+        #call the menu function for next user input
+        self.menu()
+
 
 #create object of the chatbot class
 chatbot_obj = chatbot()
