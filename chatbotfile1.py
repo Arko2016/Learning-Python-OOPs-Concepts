@@ -8,7 +8,7 @@ class chatbot:
         #call the menu function as well within the constructor
         self.menu()
     
-    #function -> provide input options for user
+    #provide input options for user
     def menu(self):
         user_input = input("""Welcome to Chatbot !! How would you like to proceed?
                            1. Enter 1 to Sign Up
@@ -18,7 +18,7 @@ class chatbot:
                            5. Press any other key to Exit
                            """)
         if user_input == "1":
-            pass
+            self.signup()
         elif user_input == "2":
             pass
         elif user_input == "3":
@@ -27,6 +27,18 @@ class chatbot:
             pass
         else:
             exit()
+    
+    #get signup details from user
+    def signup(self):
+        email = input("enter your email address: ")
+        pwd = input("enter your password: ")
+        #assign the above inputs to class attributes username and password
+        self.username = email
+        self.password = pwd
+        print("You have successfully signed up")
+        print("\n")
+        #call the menu function for next user input
+        self.menu()
 
 #create object of the chatbot class
 chatbot_obj = chatbot()
