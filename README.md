@@ -5,3 +5,6 @@ Basic Concepts:
 - Object: instance of a class
 - Attributes : variables defined within a class, representing the data or properties of an object
 - Functions/Methods: represent the actions or behaviors that an object can perform
+
+![Illustration of Class, Object, Attributes and Functions](pic1.drawio)
+
