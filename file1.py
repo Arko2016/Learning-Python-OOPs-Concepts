@@ -26,8 +26,8 @@ print(f"Memory location of the class object: {id(employee1)}")
 Note:
 As seen above, the memory location of self and class object is same.
 This denotes that once the class instance (object) is created, it is instantiated by self
-Thus, When you create an object from a class, self allows the methods of that class 
-to access and manipulate the attributes and other methods belonging to that particular objec 
+Thus, When we create an object from a class, self allows the methods of that class 
+to access and manipulate the attributes and other methods belonging to that particular object 
 """
 
 
