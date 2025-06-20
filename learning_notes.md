@@ -26,7 +26,7 @@ In software development, it helps to define variables or attributes of the class
 
 ### Difference and Application of Instance, Class and Static Methods:
 - Class methods can be accessed using a class attribute and not by object attribute
-- Static methods are outside access of Class and Object instances
+- Static methods are outside access of Object instances, but can be accessed using Class name without the need for creating an instance of the class
 - For more information on the above refer:
   - [Instance vs Class vs Static Methods](https://www.digitalocean.com/community/tutorials/python-static-method#python-static-method)
 

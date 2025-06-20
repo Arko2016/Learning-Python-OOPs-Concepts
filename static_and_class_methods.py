@@ -23,7 +23,7 @@ class MethodTypes:
     #static method with a decorator
     @staticmethod
     def calculator(num1,num2):
-         return {num1} + {num2}
+         return num1 + num2
     
     #static method to update class attribute
     @staticmethod
@@ -46,5 +46,9 @@ print(f"Update class attribute using class method: {MethodTypes.add_person()}")
 #update class attribute using static method
 MethodTypes.set_id(10)
 print(f"Class attribute updated using static method: {MethodTypes.people_cnt}")
+
+#use static method using classname but not creating an instance
+print(f"Static method invoked to add 5 + 10 gives {MethodTypes.calculator(5,10)}")
+
 
   
