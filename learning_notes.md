@@ -17,3 +17,11 @@ In software development, it helps to define variables or attributes of the class
 - Easy to debug
 - Easy to collaborate
 
+### What is Encapsulation? What are it's uses?
+- Encapsulation in Python's Object-Oriented Programming (OOP) refers to the bundling of data (attributes) and methods (functions that operate on the data) within a single unit, which is a class
+- Primary Uses:
+  - **Data Hiding and Protection:** Encapsulation helps to protect the internal state of an object from direct, unauthorized access and modification from outside the class. This prevents accidental corruption of data and ensures data integrity. However, Python doesnn't strictly impose encapsultion but specifies a specific format to access the attributes
+  - **Controlled Access via Getters and Setters:** Instead of allowing direct access to attributes, encapsulation promotes the use of public methods (getters and setters) to access and modify the data
+  - **Abstraction:** Encapsulation supports the principle of abstraction by hiding the internal complexities of an object and exposing only the necessary functionalities through its public methods
+
+
