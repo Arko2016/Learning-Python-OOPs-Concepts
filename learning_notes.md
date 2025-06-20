@@ -5,6 +5,13 @@
   - Encapsulation
   - Getter and Setter
   - Static method
+- Inheritance
+  - Example through Code
+  - Need for Inheritance
+  - What gets Inherited?
+  - Constructor Overloading vs Method Overloading
+  - Super Keyword
+  - Types of Inheritance
 
 ### Advantage of having a Constructor
 In software development, it helps to define variables or attributes of the class which will usually not be updated by the user of the application
