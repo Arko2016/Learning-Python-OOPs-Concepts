@@ -24,4 +24,10 @@ In software development, it helps to define variables or attributes of the class
   - **Controlled Access via Getters and Setters:** Instead of allowing direct access to attributes, encapsulation promotes the use of public methods (getters and setters) to access and modify the data
   - **Abstraction:** Encapsulation supports the principle of abstraction by hiding the internal complexities of an object and exposing only the necessary functionalities through its public methods
 
+### Difference and Application of Instance, Class and Static Methods:
+- Class methods can be accessed using a class attribute and not by object attribute
+- Static methods are outside access of Class and Object instances
+- For more information on the above refer:
+  - [Instance vs Class vs Static Methods](https://www.digitalocean.com/community/tutorials/python-static-method#python-static-method)
+
 
