@@ -9,6 +9,8 @@ class Employee:
         self.name = name
         self.emp_id = emp_id
         self.designation = designation
+        #define an encapsulated attribute -> this will not be visible when class is imported
+        self.__salary = 50000
         print("End object creation")
     
     #function 1
