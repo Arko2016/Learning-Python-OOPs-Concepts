@@ -9,6 +9,8 @@ class Employee:
         self.name = name
         self.emp_id = emp_id
         self.designation = designation
+        #define an encapsulated attribute -> this will not be visible when class is imported
+        self.__salary = 50000
         print("End object creation")
     
     #function 1
@@ -17,6 +19,9 @@ class Employee:
     
 #initiate an object of the class
 employee1 = Employee("Employee 1",101,"Junior Analyst")
+#in addition to defining attributes within the constructor, we can also define attributes of the object outside
+employee1.location = "Delhi"
+print(f"{employee1.name} resides in {employee1.location}")
 #call the function using above object
 employee1.func_datapull("basic")
 #get memory location of the class object
