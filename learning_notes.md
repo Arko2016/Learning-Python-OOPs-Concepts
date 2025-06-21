@@ -5,6 +5,13 @@
   - Encapsulation
   - Getter and Setter
   - Static method
+- Inheritance
+  - Example through Code
+  - Need for Inheritance
+  - What gets Inherited?
+  - Constructor Overloading vs Method Overloading
+  - Super Keyword
+  - Types of Inheritance
 
 ### Advantage of having a Constructor
 In software development, it helps to define variables or attributes of the class which will usually not be updated by the user of the application
@@ -29,5 +36,21 @@ In software development, it helps to define variables or attributes of the class
 - Static methods are outside access of Object instances, but can be accessed using Class name without the need for creating an instance of the class
 - For more information on the above refer:
   - [Instance vs Class vs Static Methods](https://www.digitalocean.com/community/tutorials/python-static-method#python-static-method)
+
+### Inheritance:
+- Process by which child class can access Constructors, Non-private/Non-encapsulated attributes and methods of the parent class (not the other way around)
+- This is beneficial for Code reusability since the child class can use the existing attributes and methods of parent class and also add unique attributes and methods for its own use
+- super() keyword, which is used to reference parent class attributes/methods inside a child class, can only be used inside the child class, not outside the child class (i.e through creating an object of the child class)
+  - additionally, super() can only be used to call parent class methods, but not attributes/variables of parent class
+- Types of Inheritance:
+  - Single level
+  - Multi-level
+  - Hierarchial
+  - Multiple (most complex, diamond structure)
+- For more information refer:
+  - [Inheritance types](https://www.codecademy.com/article/what-is-python-inheritance)
+
+
+
 
 
