@@ -40,6 +40,17 @@ In software development, it helps to define variables or attributes of the class
 ### Inheritance:
 - Process by which child class can access Constructors, Non-private/Non-encapsulated attributes and methods of the parent class (not the other way around)
 - This is beneficial for Code reusability since the child class can use the existing attributes and methods of parent class and also add unique attributes and methods for its own use
+- super() keyword, which is used to reference parent class attributes/methods inside a child class, can only be used inside the child class, not outside the child class (i.e through creating an object of the child class)
+  - additionally, super() can only be used to call parent class methods, but not attributes/variables of parent class
+- Types of Inheritance:
+  - Single level
+  - Multi-level
+  - Hierarchial
+  - Multiple (most complex, diamond structure)
+- For more information refer:
+  - [Inheritance types](https://www.codecademy.com/article/what-is-python-inheritance)
+
+
 
 
 
