@@ -37,4 +37,9 @@ In software development, it helps to define variables or attributes of the class
 - For more information on the above refer:
   - [Instance vs Class vs Static Methods](https://www.digitalocean.com/community/tutorials/python-static-method#python-static-method)
 
+### Inheritance:
+- Process by which child class can access Constructors, Non-private/Non-encapsulated attributes and methods of the parent class (not the other way around)
+- This is beneficial for Code reusability since the child class can use the existing attributes and methods of parent class and also add unique attributes and methods for its own use
+
+
 
